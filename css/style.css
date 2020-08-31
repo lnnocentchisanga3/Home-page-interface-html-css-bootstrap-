@@ -1,0 +1,86 @@
+/*body{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-color: lightgrey;
+}
+nav{
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+ul{
+	margin-top: 5rem;
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	background-color: white;
+}
+li a{
+	text-decoration-line: none;
+	padding: 0.5rem;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 5px;
+
+}
+li a:hover{
+	background-color: white;
+	color: dodgerblue;
+	border: 0.5px solid dodgerblue;
+	transition: ease-in;
+	transition-duration: 500ms;
+}
+
+.homepage{
+	width: 100%;
+	height: 15rem;
+	background-color: grey;
+}
+
+.container{
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+.p, .p1, .p2{
+	width: 33.3%;
+	float: left;
+}
+
+.p{
+	background-color: dodgerblue;
+	color: white;
+}
+.p:hover{
+	cursor: pointer;
+	background-color: white;
+	color: dodgerblue;
+	transition: ease-in;
+	transition-duration: 500ms;
+}
+.p1{
+	background-color: grey;
+	color: white;
+}
+.p2{
+	background-color: lightblue;
+	color: white;
+}*/
+
+.homepage{
+	background-image: url(images/bg.png);
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 25rem;
+}
+.container{
+	margin-top: -10rem;
+}
+.p ,.p1, .p2, .p3:hover{
+	cursor: pointer;
+}
